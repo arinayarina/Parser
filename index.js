@@ -9,8 +9,8 @@ let parser = new Parser(text);
 parser.printContext();
 console.log("_____");
 parser.parse();
-console.log("_____");
+//console.log("_____");
 //parser.show();
 
 console.log("_____");
-parser.printLines();
+//parser.printLines();
