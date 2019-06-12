@@ -1,0 +1,76 @@
+{
+  "_from": "@texnous/latex@~0.1.4",
+  "_id": "@texnous/latex@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-o5NuKZ+j6NbqjNYGkBTEByo4Qpg=",
+  "_location": "/@texnous/latex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@texnous/latex@~0.1.4",
+    "name": "@texnous/latex",
+    "escapedName": "@texnous%2flatex",
+    "scope": "@texnous",
+    "rawSpec": "~0.1.4",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.4"
+  },
+  "_requiredBy": [
+    "/@texnous/latex-parser",
+    "/@texnous/latex-syntax",
+    "/@texnous/latex-tree"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/latex/-/latex-0.1.5.tgz",
+  "_shasum": "a3936e299fa3e8d6ea8cd6069014c4072a384298",
+  "_spec": "@texnous/latex@~0.1.4",
+  "_where": "C:\\Users\\Asus\\node_modules\\@texnous\\latex-parser",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/latex/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "deprecated": false,
+  "description": "General LaTeX definitions.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/latex",
+  "keywords": [
+    "TeXnous",
+    "LaTeX"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/latex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/latex.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.5"
+}

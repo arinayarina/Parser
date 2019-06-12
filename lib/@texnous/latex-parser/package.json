@@ -1,0 +1,86 @@
+{
+  "_from": "@texnous/latex-parser",
+  "_id": "@texnous/latex-parser@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha1-h7njR2t2m8WKhg9q9DK9dYaNyZw=",
+  "_location": "/@texnous/latex-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@texnous/latex-parser",
+    "name": "@texnous/latex-parser",
+    "escapedName": "@texnous%2flatex-parser",
+    "scope": "@texnous",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/latex-parser/-/latex-parser-0.1.4.tgz",
+  "_shasum": "87b9e3476b769bc58a860f6af432bd75868dc99c",
+  "_spec": "@texnous/latex-parser",
+  "_where": "C:\\Users\\Asus",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/latex-parser/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "dependencies": {
+    "@texnous/latex": "~0.1.4",
+    "@texnous/latex-syntax": "~0.1.3",
+    "@texnous/latex-tree": "~0.1.4",
+    "@texnous/parser": "~0.1.2"
+  },
+  "deprecated": false,
+  "description": "LaTeX parser class.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/latex-parser",
+  "keywords": [
+    "TeXnous",
+    "LaTeX",
+    "structure",
+    "tree",
+    "graph",
+    "syntax",
+    "parser"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/latex-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/latex-parser.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.4"
+}

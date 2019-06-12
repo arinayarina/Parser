@@ -1,0 +1,81 @@
+{
+  "_from": "@texnous/parser@~0.1.2",
+  "_id": "@texnous/parser@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-r8FWj/YnzBFWkOXCMdQmacLyQh4=",
+  "_location": "/@texnous/parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@texnous/parser@~0.1.2",
+    "name": "@texnous/parser",
+    "escapedName": "@texnous%2fparser",
+    "scope": "@texnous",
+    "rawSpec": "~0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.2"
+  },
+  "_requiredBy": [
+    "/@texnous/latex-parser"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/parser/-/parser-0.1.2.tgz",
+  "_shasum": "afc1568ff627cc115690e5c231d42669c2f2421e",
+  "_spec": "@texnous/parser@~0.1.2",
+  "_where": "C:\\Users\\Asus\\node_modules\\@texnous\\latex-parser",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/parser/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "dependencies": {
+    "@texnous/syntax-tree": "~0.1.2"
+  },
+  "deprecated": false,
+  "description": "Formatted text parser base class.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/parser",
+  "keywords": [
+    "TeXnous",
+    "structure",
+    "tree",
+    "graph",
+    "syntax",
+    "parser"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/parser.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.2"
+}

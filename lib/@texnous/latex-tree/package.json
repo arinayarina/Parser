@@ -1,0 +1,83 @@
+{
+  "_from": "@texnous/latex-tree@~0.1.4",
+  "_id": "@texnous/latex-tree@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha1-4fcd1Hx+GfIwMoImDStFqWnswbc=",
+  "_location": "/@texnous/latex-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@texnous/latex-tree@~0.1.4",
+    "name": "@texnous/latex-tree",
+    "escapedName": "@texnous%2flatex-tree",
+    "scope": "@texnous",
+    "rawSpec": "~0.1.4",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.4"
+  },
+  "_requiredBy": [
+    "/@texnous/latex-parser"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/latex-tree/-/latex-tree-0.1.4.tgz",
+  "_shasum": "e1f71dd47c7e19f2303282260d2b45a969ecc1b7",
+  "_spec": "@texnous/latex-tree@~0.1.4",
+  "_where": "C:\\Users\\Asus\\node_modules\\@texnous\\latex-parser",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/latex-tree/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "dependencies": {
+    "@texnous/latex": "~0.1.4",
+    "@texnous/latex-syntax": "~0.1.3",
+    "@texnous/syntax-tree": "~0.1.2"
+  },
+  "deprecated": false,
+  "description": "LaTeX syntax tree structure elements.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/latex-tree",
+  "keywords": [
+    "TeXnous",
+    "LaTeX",
+    "structure",
+    "tree",
+    "graph",
+    "syntax"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/latex-tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/latex-tree.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.4"
+}

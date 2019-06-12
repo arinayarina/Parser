@@ -1,0 +1,81 @@
+{
+  "_from": "@texnous/syntax-tree@~0.1.2",
+  "_id": "@texnous/syntax-tree@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-j68Yw90NmJtQEvP4ZgfLfjf4P7g=",
+  "_location": "/@texnous/syntax-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@texnous/syntax-tree@~0.1.2",
+    "name": "@texnous/syntax-tree",
+    "escapedName": "@texnous%2fsyntax-tree",
+    "scope": "@texnous",
+    "rawSpec": "~0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.2"
+  },
+  "_requiredBy": [
+    "/@texnous/latex-tree",
+    "/@texnous/parser"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/syntax-tree/-/syntax-tree-0.1.2.tgz",
+  "_shasum": "8faf18c3dd0d989b5012f3f86607cb7e37f83fb8",
+  "_spec": "@texnous/syntax-tree@~0.1.2",
+  "_where": "C:\\Users\\Asus\\node_modules\\@texnous\\latex-tree",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/syntax-tree/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "dependencies": {
+    "@texnous/tree": "~0.1.6"
+  },
+  "deprecated": false,
+  "description": "Syntax tree structure elements.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/syntax-tree",
+  "keywords": [
+    "TeXnous",
+    "structure",
+    "tree",
+    "graph",
+    "syntax"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/syntax-tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/syntax-tree.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.2"
+}

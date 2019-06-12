@@ -1,0 +1,76 @@
+{
+  "_from": "@texnous/tree@~0.1.6",
+  "_id": "@texnous/tree@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha1-h9f7jqK4ZL8JRXMfFIUltkV4ksg=",
+  "_location": "/@texnous/tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@texnous/tree@~0.1.6",
+    "name": "@texnous/tree",
+    "escapedName": "@texnous%2ftree",
+    "scope": "@texnous",
+    "rawSpec": "~0.1.6",
+    "saveSpec": null,
+    "fetchSpec": "~0.1.6"
+  },
+  "_requiredBy": [
+    "/@texnous/syntax-tree"
+  ],
+  "_resolved": "https://registry.npmjs.org/@texnous/tree/-/tree-0.1.6.tgz",
+  "_shasum": "87d7fb8ea2b864bf0945731f148525b6457892c8",
+  "_spec": "@texnous/tree@~0.1.6",
+  "_where": "C:\\Users\\Asus\\node_modules\\@texnous\\syntax-tree",
+  "author": {
+    "name": "TeXnous team",
+    "email": "team@texnous.org",
+    "url": "http://texnous.org"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/texnous/tree/issues",
+    "email": "issues@texnous.org"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Kirill Chuvilin",
+      "email": "k.chuvilin@texnous.org"
+    }
+  ],
+  "deprecated": false,
+  "description": "Tree structure elements.\nThis is a part of the TeXnous project.",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "nodeunit": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=7.7.0"
+  },
+  "files": [
+    "sources",
+    "license.gpl-3.0.md",
+    "license.lgpl-3.0.md",
+    "readme.md"
+  ],
+  "homepage": "https://bitbucket.org/texnous/tree",
+  "keywords": [
+    "TeXnous",
+    "structure",
+    "tree",
+    "graph"
+  ],
+  "license": "LGPL-3.0",
+  "main": "sources/index.js",
+  "name": "@texnous/tree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/texnous/tree.git"
+  },
+  "scripts": {
+    "linting": "eslint .",
+    "testing": "nodeunit ./tests/index.js"
+  },
+  "version": "0.1.6"
+}

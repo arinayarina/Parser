@@ -1,17 +1,17 @@
 let fs = require('fs');
-let Parser = require('./lib/Parser');
+let MarkdownParser = require('./lib/Parser');
 
 
 let text = fs.readFileSync('file.md', 'utf-8');
 
 
-let parser = new Parser(text);
-parser.printContext();
-console.log("_____");
-parser.parse();
+let parser = new MarkdownParser(text);
+//parser.printContext();
+//console.log("_____");
+
 //console.log("_____");
 //parser.show();
-
-console.log("_____");
-//parser.printLines();
+parser.parse();
+console.log("\n            _____ Tree ____\n");
+parser.printTree();
 
