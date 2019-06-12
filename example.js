@@ -9,5 +9,12 @@ let parser = new MarkdownParser(text);
 
 parser.parse();
 
+let HTML = parser.toHTML();
+
+fs.writeFile("example.html", HTML, function (err) {
+    if (err) throw err;
+    console.log('HTML file is created successfully.');
+});
+
 parser.printTree();
 
